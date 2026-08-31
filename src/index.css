@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oswald:wght@300;400;500;600;700&family=Roboto+Condensed:ital,wght@0,300;0,400;0,500;0,700;1,400&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --color-bg: #222222;
+  --color-navy: #283c69;
+  --color-violet: #788ce3;
+  --color-sky: #92bad5;
+  --color-lime: #dff478;
+  --color-cream: #f9f7f2;
+  --color-card: #2d2d2d;
+  --color-surface: #383838;
+  --color-overlay: #1a1a1a;
+
+  --font-display: 'Bebas Neue', sans-serif;
+  --font-heading: 'Oswald', sans-serif;
+  --font-body: 'Roboto Condensed', sans-serif;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  background-color: #222222;
+  color: #f9f7f2;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+* {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  box-sizing: border-box;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+input,
+select,
+textarea {
+  color-scheme: dark;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+  filter: invert(1) opacity(0.5);
+}

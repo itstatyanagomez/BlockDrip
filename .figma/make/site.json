@@ -1,0 +1,10 @@
+{
+  "description": "Streamline team collaboration and project management with an intuitive app for tracking jobs, accounts, crew, and invoices, enhancing operational efficiency.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}
